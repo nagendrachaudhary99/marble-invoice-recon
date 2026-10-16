@@ -1,0 +1,6 @@
+{"invoice_id": "INV-9005", "supplier": "Sysco", "po_id": "PO-1001", "date": "2026-10-14",
+ "items": [
+  {"sku": "CHK-BRST-40", "name": "Chicken breast 40lb case", "qty": 10, "unit": "case", "unit_price": 73.10},
+  {"sku": "RCE-JAS-50", "name": "Jasmine rice 50lb", "qty": 4, "unit": "bag", "unit_price": 42.50},
+  {"sku": "OIL-CAN-35", "name": "Canola oil 35lb", "qty": 3, "unit": "jug", "unit_price": 39.00}
+ ]}

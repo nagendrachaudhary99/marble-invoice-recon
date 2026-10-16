@@ -1,0 +1,6 @@
+{"invoice_id": "INV-9003", "supplier": "Local Produce Co", "po_id": "PO-1003", "date": "2026-10-13",
+ "items": [
+  {"sku": "LET-ROM-24", "name": "Romaine 24ct", "qty": 6, "unit": "case", "unit_price": 28.00},
+  {"sku": "TOM-RYE-25", "name": "Tomatoes 25lb", "qty": 4, "unit": "case", "unit_price": 31.50},
+  {"sku": "AVC-HAS-48", "name": "Avocados 48ct", "qty": 2, "unit": "case", "unit_price": 62.00}
+ ]}

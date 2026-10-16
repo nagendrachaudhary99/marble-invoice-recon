@@ -1,0 +1,44 @@
+[
+  {
+    "kind": "unit_price_creep",
+    "severity": "high",
+    "supplier": "Sysco",
+    "detail": "INV-9001: Chicken breast 40lb case billed $73.10/case vs contracted $68.00 (+7.5%)",
+    "amount_at_stake": 51.0
+  },
+  {
+    "kind": "quantity_over",
+    "severity": "medium",
+    "supplier": "US Foods",
+    "detail": "INV-9002: Mozzarella shredded 20lb qty 6.0case vs ordered 5.0case",
+    "amount_at_stake": 54.75
+  },
+  {
+    "kind": "unknown_item",
+    "severity": "medium",
+    "supplier": "Local Produce Co",
+    "detail": "INV-9003: 'Avocados 48ct' (AVC-HAS-48) not on PO PO-1003",
+    "amount_at_stake": 124.0
+  },
+  {
+    "kind": "duplicate_invoice",
+    "severity": "high",
+    "supplier": "US Foods",
+    "detail": "INV-9004 duplicates INV-9002 (same items, qty, prices)",
+    "amount_at_stake": 639.7
+  },
+  {
+    "kind": "duplicate_invoice",
+    "severity": "high",
+    "supplier": "Sysco",
+    "detail": "INV-9005 duplicates INV-9001 (same items, qty, prices)",
+    "amount_at_stake": 1018.0
+  },
+  {
+    "kind": "missing_invoice",
+    "severity": "low",
+    "supplier": "Sysco",
+    "detail": "PO PO-1004 has no matching invoice this cycle",
+    "amount_at_stake": 0.0
+  }
+]

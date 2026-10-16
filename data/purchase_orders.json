@@ -1,0 +1,18 @@
+[
+  {"po_id": "PO-1001", "supplier": "Sysco", "items": [
+    {"sku": "CHK-BRST-40", "name": "Chicken breast 40lb case", "qty": 10, "unit": "case", "unit_price": 68.00},
+    {"sku": "RCE-JAS-50", "name": "Jasmine rice 50lb", "qty": 4, "unit": "bag", "unit_price": 42.50},
+    {"sku": "OIL-CAN-35", "name": "Canola oil 35lb", "qty": 3, "unit": "jug", "unit_price": 39.00}
+  ]},
+  {"po_id": "PO-1002", "supplier": "US Foods", "items": [
+    {"sku": "BEF-GRD-81", "name": "Ground beef 81/19 10lb", "qty": 8, "unit": "chub", "unit_price": 38.90},
+    {"sku": "CHZ-MOZ-20", "name": "Mozzarella shredded 20lb", "qty": 5, "unit": "case", "unit_price": 54.75}
+  ]},
+  {"po_id": "PO-1003", "supplier": "Local Produce Co", "items": [
+    {"sku": "LET-ROM-24", "name": "Romaine 24ct", "qty": 6, "unit": "case", "unit_price": 28.00},
+    {"sku": "TOM-RYE-25", "name": "Tomatoes 25lb", "qty": 4, "unit": "case", "unit_price": 31.50}
+  ]},
+  {"po_id": "PO-1004", "supplier": "Sysco", "items": [
+    {"sku": "BRD-BRI-12", "name": "Brioche buns 12x8", "qty": 15, "unit": "case", "unit_price": 22.40}
+  ]}
+]

@@ -1,0 +1,5 @@
+{"invoice_id": "INV-9004", "supplier": "US Foods", "po_id": "PO-1002", "date": "2026-10-14",
+ "items": [
+  {"sku": "BEF-GRD-81", "name": "Ground beef 81/19 10lb", "qty": 8, "unit": "chub", "unit_price": 38.90},
+  {"sku": "CHZ-MOZ-20", "name": "Mozzarella shredded 20lb", "qty": 6, "unit": "case", "unit_price": 54.75}
+ ]}

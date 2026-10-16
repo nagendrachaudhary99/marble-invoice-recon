@@ -1,0 +1,11 @@
+Subject: Invoice INV-9001 - pricing discrepancy
+
+Hi Sysco team,
+
+While reconciling invoice INV-9001 against our contracted pricing we found:
+  - INV-9001: Chicken breast 40lb case billed $73.10/case vs contracted $68.00 (+7.5%)
+
+Could you confirm whether these reflect a price list change we haven't received, or a billing error? Happy to send the PO reference.
+
+Thanks,
+Accounts
