@@ -8,8 +8,8 @@ import json
 import os
 
 from .agent import draft_supplier_query, exceptions_report
-from .loader import load_invoices, load_purchase_orders
-from .reconcile import reconcile
+from .loader import load_invoices_verbose, load_purchase_orders
+from .matchers import ExactMatcher
 
 
 def main():
@@ -17,11 +17,16 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--data", default=os.path.join(here, "..", "data"))
     ap.add_argument("--out", default=os.path.join(here, "..", "results"))
+    ap.add_argument("--matcher", default="exact", choices=["exact"])
     args = ap.parse_args()
 
     pos = load_purchase_orders(os.path.join(args.data, "purchase_orders.json"))
-    invoices = load_invoices(os.path.join(args.data, "invoices"))
-    findings = reconcile(pos, invoices)
+    invoices, quarantined = load_invoices_verbose(os.path.join(args.data, "invoices"))
+    if quarantined:
+        print(f"WARNING: quarantined {len(quarantined)} unparseable invoice "
+              f"file(s): {', '.join(quarantined)}")
+    matcher = ExactMatcher()
+    findings = matcher.match(pos, invoices)
 
     report = exceptions_report(findings)
     print(report)
